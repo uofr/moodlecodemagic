@@ -1,12 +1,15 @@
-span.css-at {color: #0000ff;}
-span.css-unit {color: #0000ff;}
-span.css-value {color: #0000ff;}
+span.css-at {color: #3b78ba;}
+span.css-unit {color: #d84121;}
+span.css-value {color: #41a231;}
 span.css-identifier {color: #800000; font-weight: bold;}
 span.css-selector {color: #ff00ff;}
-span.css-important {color: #00F;}
+span.css-important {color: #ff0600;
+	font-weight: bold;
+	font-style: italic;
+}
 span.css-colorcode {color: #0000ff;}
 span.css-comment {color: gray;}
-span.css-string {color: #008000;}
+span.css-string {color: orange;}
 
 
 span.js-keyword {color: #000000; font-weight: bold;}
@@ -19,9 +22,9 @@ span.js-comment {color: #008000;}
 span.js-string {color: #b70000;}
 
 
-span.xml-tag {color: #800080; font-weight: bold;}
-span.xml-attribute {color: #8080ff;}
-span.xml-attname {color: #008080;}
+span.xml-tag {color: #a1007c; font-weight: bold;}
+span.xml-attribute {color: #2011a0;}
+span.xml-attname {color: #bb370e;}
 span.xml-comment {color: #008000;}
 span.xml-cdata {color: #48a;}
 span.xml-processing {color: #999;}
