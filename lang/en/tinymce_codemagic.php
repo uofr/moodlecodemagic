@@ -15,24 +15,25 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for DragMath editor integration plugin.
+ * Strings for Code Magic editor integration plugin.
  *
- * @package   tinymce_dragmath
- * @copyright 2012 The Open University
+ * @package   tinymce_codemagic
+ * @copyright 2013 Trevor Cunningham, University of Regina
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $string['pluginname'] = 'Code Magic';
 $string['enablecodemagic'] = 'Enable Code Magic';
-$string['enablecodemagic_desc'] = 'If enabled the Code Magic button will be...';
+$string['enablecodemagic_desc'] = 'If enabled the Code Magic button will be added next to the default TinyMCE HTML button. Code Magic supports syntax highlighting, indendation, and auto-completion.';
 $string['title'] = 'Code Magic HTML Editor';
 
 /* All lang strings used from TinyMCE JavaScript code must be named 'pluginname:stringname', no need to create langs/en_dlg.js */
+$string['codemagic:editor_button'] = 'Edit HTML source – Code Magic';
 $string['codemagic:desc'] = 'Code Magic';
-$string['codemagic:code_title'] = 'CodeMagic - syntax coloring and intendation';
+$string['codemagic:code_title'] = 'CodeMagic - syntax highlighting, indendation, and auto-completion';
 $string['codemagic:code_label'] = 'Edit code';
 $string['codemagic:toggle_highlighting'] = 'Syntax highlighting';
-$string['codemagic:toggle_autocompletion'] = 'Auto completion';
+$string['codemagic:toggle_autocompletion'] = 'Auto-completion';
 $string['codemagic:toggle_wraptext'] = 'Wrap text';
 $string['codemagic:search'] = 'Search';
 $string['codemagic:replace'] = 'Replace';
