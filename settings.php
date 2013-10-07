@@ -26,5 +26,5 @@ defined('MOODLE_INTERNAL') || die;
 
 if ($ADMIN->fulltree) {
     $settings->add(new admin_setting_configcheckbox('tinymce_codemagic/enablecodemagic',
-        get_string('enablecodemagic', 'tinymce_dragmath'), get_string('enablecodemagic_desc', 'tinymce_codemagic'), 1));
+        get_string('enablecodemagic', 'tinymce_codemagic'), get_string('enablecodemagic_desc', 'tinymce_codemagic'), 1));
 }
