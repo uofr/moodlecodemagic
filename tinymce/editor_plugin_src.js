@@ -15,8 +15,8 @@
             ed.addCommand('mceCodeMagic', function() {
                 ed.windowManager.open({
                     file : ed.getParam("moodle_plugin_base") + 'codemagic/codemagic.php',
-                    width : 900,
-                    height : 600,
+                    width : 1000,
+                    height : 580,
                     inline : 1,
                     maximizable: true
                 }, {
