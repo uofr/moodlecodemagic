@@ -42,7 +42,7 @@ class tinymce_codemagic extends editor_tinymce_plugin {
         */
                 
         // Add button before 'nonbreaking' in advancedbuttons3.
-        $this->add_button_after($params, 3, 'codemagic', 'nonbreaking');
+        $this->add_button_after($params, 3, 'codemagic', 'code');
 
         // Add JS file, which uses default name.
         $this->add_js_plugin($params);
