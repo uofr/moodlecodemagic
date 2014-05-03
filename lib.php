@@ -25,7 +25,7 @@ defined('MOODLE_INTERNAL') || die();
  */
 class tinymce_codemagic extends editor_tinymce_plugin {
     /** @var array list of buttons defined by this plugin */
-    protected $buttons = array('codemagic');
+    protected $buttons = array('code');
 
     protected function update_init_params(array &$params, context $context,
             array $options = null) {
@@ -41,8 +41,8 @@ class tinymce_codemagic extends editor_tinymce_plugin {
         }
         */
                 
-        // Add button before 'nonbreaking' in advancedbuttons3.
-        $this->add_button_after($params, 3, 'codemagic', 'code');
+        
+        //$this->add_button($params, 3, 'codemagic', 'code');
 
         // Add JS file, which uses default name.
         $this->add_js_plugin($params);

@@ -15,7 +15,7 @@
             ed.addCommand('mceCodeMagic', function() {
                 ed.windowManager.open({
                     file : ed.getParam("moodle_plugin_base") + 'codemagic/codemagic.php',
-                    width : 1000,
+                    width : 800,
                     height : 580,
                     inline : 1,
                     maximizable: true
@@ -25,10 +25,9 @@
             });
 
             // Register buttons
-            ed.addButton('codemagic', {
+            ed.addButton('code', {
                 title: 'codemagic.editor_button',
-                cmd: 'mceCodeMagic',
-                image: url + '/img/code.png'
+                cmd: 'mceCodeMagic'
             });
 
             ed.onNodeChange.add(function(ed, cm, n, co) {
